@@ -2,7 +2,7 @@
 
 CC = gcc
 DEBUG = -Wall -lm
-DEP=  init.o main.o
+DEP=  create_node.o insert_node.o display.o main.o
 
 run: ${DEP}
 	${CC} ${DEBUG} -o run ${DEP}

@@ -1,4 +1,4 @@
 typedef struct {
 	int val;
-	struct node next;
+	struct node *next;
 }node;
