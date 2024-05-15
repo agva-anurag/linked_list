@@ -2,7 +2,7 @@
 
 CC = gcc
 DEBUG = -Wall -lm
-DEP=  reverse_linked_list.o create_node.o insert_node.o display.o main.o
+DEP=  cyclic_or_not.o middle_linked_list.o reverse_linked_list.o create_node.o insert_node.o display.o main.o
 
 run: ${DEP}
 	${CC} ${DEBUG} -o run ${DEP}
