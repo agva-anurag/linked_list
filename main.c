@@ -17,6 +17,7 @@ int main(){
 	display((void*)head);
 	middle = middle_linked_list((void*)head);
 	display((void*)middle);
+	printf(" cyclic = %d \n",cyclic_or_not((void*)head));
 	printf("\n END %s ",__func__);
 	return 0;
 }
